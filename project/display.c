@@ -35,7 +35,7 @@ int main(void)
 
 	while(running == true)
 	{
-		lcd_display_cpuLoad();
+		lcd_display_temp();
 		sleep(5);
 	}
 	return 0;
