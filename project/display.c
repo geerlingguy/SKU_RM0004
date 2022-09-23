@@ -30,6 +30,9 @@ int main(void)
 		return 0;
 	}
 	sleep(1);
+
+	lcd_display_IP();
+
 	while(running == true)
 	{
 		lcd_display_cpuLoad();
